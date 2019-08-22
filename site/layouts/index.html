@@ -2,7 +2,7 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 {{ partial "short-text" .Params.blurb}}
-
+{{ partial "agenda" .Params.agenda}}
 {{ partial "signup" (dict "joinURL" .Params.JoinURL ) }}
 
 {{ end }}
