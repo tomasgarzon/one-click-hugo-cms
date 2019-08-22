@@ -5,16 +5,25 @@ joinURL: 'http://localhost:8000/api/events'
 saveURL: 'http://localhost:8000/api/events'
 image: /img/innovation-561388_1920.jpg
 blurb:
-    heading: Why Exo Summit?
-    text: This is only an example
+  heading: Why Exo Summit?
+  text: |-
+    asdfasdfsa
+
+    asdfasdfasdf
+
+    asdfasfasdf
 agenda:
-    heading: Agenda
-    text: "Add here your agenda"
+  heading: Agenda
+  text: |-
+    * First
+    * Second
+    * Third
 signup:
-    heading: "Sign up"
-    text: "Introductory text"
-    eventId: 1
+  eventId: 1
+  heading: Sign up
+  text: Introductory text for signup
 save:
-    text: "Introductory text"
-    eventId: 1
+  eventId: 1
+  text: Introductory text for save the date
 ---
+
