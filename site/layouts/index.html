@@ -1,9 +1,8 @@
 {{ define "main" }}
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
-
 {{ partial "short-text" .Params.blurb}}
 
-{{ partial "signup" .Params }}
+{{ partial "signup" (dict "joinURL" .Params.JoinURL ) }}
 
 {{ end }}
