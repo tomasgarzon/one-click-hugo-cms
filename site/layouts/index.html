@@ -3,6 +3,7 @@
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 {{ partial "short-text" .Params.blurb}}
 {{ partial "agenda" .Params.agenda}}
-{{ partial "signup" (dict "joinURL" .Params.JoinURL ) }}
+{{ partial "signup" (dict "joinURL" .Params.JoinURL "text" .Params.signup.text "heading" .Params.signup.heading "eventId" .Params.signup.eventId) }}
+{{ partial "save-form" (dict "saveURL" .Params.saveURL "text" .Params.save.text  "eventId" .Params.save.eventId) }}
 
 {{ end }}
