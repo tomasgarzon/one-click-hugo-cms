@@ -1,0 +1,25 @@
+<div class="pv3 mb4">
+  <div class="mhn1-l center wp-960">
+    <div class=" mb4 w-100 primary fp32 b tc">Featured Guests</div>
+    <div class="w-100-l mb2 flex-l ">
+      {{ range .Params.speakers }}
+        <div class="w-33 mr3">
+          <img src="{{.image}}" class="tc boxs">
+          <h1 class="b dark-blue fp24 tc mv2">{{.title}}</h1>
+          <h2 class="b fp18 b grey-3 tc mb3">{{.subtitle | safeHTML}}</h2>
+          <p class="tj fp16">{{.description}}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="mhn1-l flex-l center wp-960">
+    <div class="center w-80-l tc">
+      <a href="#signup" class="mt3 btn b mb3 mr2 bg-orange white w-100 w-auto-ns mb0-ns fp16">
+          SIGN UP
+        </a>
+        <a href="#save" class="mt3 btn mb3 w-100 w-auto-ns mb0-ns bg-grey-2 primary fp16">
+          SAVE THE DATE
+        </a>
+      </div>
+  </div>
+</div>

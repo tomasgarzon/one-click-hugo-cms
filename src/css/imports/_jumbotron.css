@@ -1,0 +1,6 @@
+.rectangle {
+  width: 550px;
+  height: 480px;
+  border-radius: 12px;
+  background-color: var(--primary);
+}

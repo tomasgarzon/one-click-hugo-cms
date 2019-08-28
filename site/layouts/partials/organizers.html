@@ -1,0 +1,22 @@
+<div class="pv3">
+  <div class="mhn1-l center wp-960">
+    <div class=" mb3 w-100 primary fp32 b tc">About the organizers</div>
+    <div class="w-100-l mb2 flex-l ">
+      {{ range .Params.organizers }}
+        <div class="w-50 mr3 tc">
+          <div class="flex-l br1 bg-fix-primary items-center content-center " style="height: 202px">
+            <img src="{{.image}}" class="tc center">
+          </div>
+          <p class="tl fp16 mt3">{{ .description | safeHTML }}</p>
+        </div>
+      {{ end }}
+    </div>
+    <div class="w-100-l mb2 flex-l ">
+      {{ range .Params.organizers }}
+        <div class="w-50 mr3 tc">
+          <a href="{{.url}}" target="_blank" class="mt3 btn mb3 w-100 w-auto-ns mb0-ns bg-grey-2 tc primary">VISIT WEBPAGE</a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

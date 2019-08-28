@@ -1,9 +1,16 @@
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
 .f3 { font-size: 1.5rem; }
-.f4 { font-size: 1.25rem;; }
+.f4 { font-size: 1.25rem; }
 .f5 { font-size: var(--spacing-medium); }
 .f6 { font-size: .875rem; }
+
+.fp16 { font-size: 16px !important; }
+.fp18 { font-size: 18px; }
+.fp24 { font-size: 24px; }
+.fp32 { font-size: 32px; }
+.fp48 { font-size: 48px; }
+.fp64 { font-size: 64px; }
 
 @media (--breakpoint-not-small) {
   .f-6-ns,

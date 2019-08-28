@@ -2,6 +2,9 @@ img {
   max-width: 100%;
 }
 
+.boxs{
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.24);
+}
 /* Remove border-radiius from full-width images */
 img:not(.w-100) {
   border-radius: var(--border-radius);

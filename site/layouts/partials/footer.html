@@ -1,34 +1,21 @@
-<footer class="bg-black ph3 pv4 white">
+<footer class="bg-dark-blue ph3 pv3 white">
 
 	<div class="mw7 center pt3">
 
 		<div class="flex-ns justify-between">
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">OpenExO Summit</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="#agenda" class="link">Agenda</a></li>
-					<li><a href="#location" class="link">Location</a></li>
-					<li><a href="#signup" class="link">Signup</a></li>
-				</ul>
+				<img src="/img/exosummits-horizontal/exosummits-horizontal-white.png"
+                     srcset="/img/exosummits-horizontal/exosummits-horizontal-white@2x.png 2x,
+                             img/exosummits-horizontal-white@3x.png 3x">
 			</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
+			<div class="fp16">
+			 <a href="https://www.openexo.com" target="_blank" >OpenExO</a> ©2019  |  Transform the world for a better future
 			</div>
-
 		</div>
 	</div>
 
 </footer>
-
-{{ partial "svg" . }}
 
 <script src="/app.js"></script>

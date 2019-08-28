@@ -1,0 +1,22 @@
+<section id='signup'>
+<div class="pv3 mb4">
+  <div class="mhn1-l center wp-960">
+    <div class=" mb4 w-100 primary fp32 b tc">Join the summit</div>
+    <div class="w-100-l mb1 flex-l justify-between">
+      {{ range .Params.prices }}
+        <div class="mr3 tc">
+          <p class="tj fp16">{{.description | safeHTML}}</p>
+          <p class="tj">Price: <span class="primary">{{.price}}</span></p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="mhn1-l flex-l center wp-960">
+    <div class="center w-80-l tc">
+      <a href="{{.Params.buy_url}}" target="_blank" class="mt3 btn b mb3 mr2 bg-orange white w-100 w-auto-ns mb0-ns fp16">
+          BUY
+        </a>
+      </div>
+  </div>
+</div>
+</section>

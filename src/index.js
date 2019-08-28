@@ -11,4 +11,20 @@ $(function(){
         debugger;
         console.log($this);
     });
+    var slider = tns({
+      container: '.homepage',
+      items: 1,
+      autoplay: true,
+      speed: 400,
+      center: true,
+      controls: false
+    });
+    var slider2 = tns({
+      container: '.allies',
+      items: 5,
+      autoplay: true,
+      speed: 400,
+      center: true,
+      controls: false
+    });
 })

@@ -65,3 +65,10 @@ button {
 a {
 	color: inherit;
 }
+
+.tns-nav button{
+  display: none;
+}
+.tns-outer button{
+ display: none;
+}

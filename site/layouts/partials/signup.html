@@ -1,31 +1,28 @@
 <!-- Contact -->
 <section id='signup'>
-<div class="mb4">
-  <h4 class="f3 b lh-title mb3 tc">{{.heading}}</h4>
-  <div class="mhn1-l ph3 center mw7"><p>{{.text}}</p></div>
-  <div class="mhn1-l ph3 center mw7">
-    <form action="{{.joinURL}}" id='form-join'>
-      <input type='hidden' value="{{.eventId}}" id='event' name='event'>
-      <div class="flex-l mhn1-l mw7">
-        <!-- Name -->
-        <div class="ph1-l w-20-l">
-          <fieldset>
-            <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2" required>
-            <label for="name">Name</label>
+<div class="pv3">
+  <div class="mhn1-l center wp-960">
+    <div class=" mb3 w-100 primary fp32 b tc">{{.heading}}</div>
+    <div class="w-100-l mb2 flex-l ">
+      <form action="{{.joinURL}}" id='form-join'>
+          <input type='hidden' value="{{.eventId}}" id='event' name='event'>
+          <div class="w-100-l">
+            <fieldset>
+              <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2" required>
+              <label for="name">Name</label>
           </fieldset>
-        </div>
-        <!-- Email -->
-        <div class="ph1-l w-20-l">
-          <fieldset>
-            <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2" required>
-            <label for="email">Email</label>
+          </div>
+          <div class="w-100-l">
+            <fieldset>
+              <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2" required>
+              <label for="email">Email</label>
           </fieldset>
+          </div>
+          <div class="ph1-l w-100-l">
+          <button type="submit" class="btn bg-orange white w-100 w-auto-ns">Submit</button>
         </div>
-        <div class="ph1-l w-20-l">
-          <button type="submit" class="btn w-100 w-auto-ns raise">Submit</button>
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
 </div>
 </section>

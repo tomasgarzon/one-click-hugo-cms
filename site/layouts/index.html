@@ -1,9 +1,15 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "location" .Params.location "when" .Params.when) }}
 {{ partial "short-text" .Params.blurb}}
-{{ partial "agenda" .Params.agenda}}
-{{ partial "signup" (dict "joinURL" .Params.JoinURL "text" .Params.signup.text "heading" .Params.signup.heading "eventId" .Params.signup.eventId) }}
+{{ partial "program" .Params.blurb}}
+{{ partial "model" (dict "about" .Params.about) }}
+{{ partial "organizations" (dict "logos" .Params.logos) }}
+{{ partial "speakers" . }}
+{{ partial "organizers" . }}
+{{ partial "allies" . }}
+{{ partial "join" .}}
+{{ partial "quotes" (dict "carousel" .Params.carousel)}}
 {{ partial "save-form" (dict "saveURL" .Params.saveURL "text" .Params.save.text  "eventId" .Params.save.eventId) }}
-
+{{ partial "scripts.html" . }}
 {{ end }}
