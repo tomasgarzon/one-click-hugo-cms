@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "markdown"}]}
           - {label: "Guests", name: speakers, widget: object, fields: [
               {label: "Name", name: "title", widget: string},
-              {label: "Position", name: "position", widget: string},
+              {label: "Position", name: "subtitle", widget: string},
               {label: "Image", name: "image", widget: "image"},
               {label: "Description", name: "description", widget: "markdown"}]}
           - {label: "Organizations", name: logos, widget: object, fields: [
