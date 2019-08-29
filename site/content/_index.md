@@ -15,7 +15,6 @@ blurb:
       <p>Exponentiality and disruption are key to transform the world. ExO Summits are immersive events where world leaders, executives, entrepreneurs and game changers get together to share their transformative experiences and exchange ideas to transform the world.</p>
       <p>With more than 10 years' experience helping companies stay up to date with technology, ACME teams up with ExOSummits in this event for all those who live the present and look at the future.</p>
       <p>Discover all we can do together and inspire others.</p>
-
 speakers:
     - title: Jenna McDonald
       subtitle: 'CEO at McDonald & Co.<br/>Australia'
@@ -92,7 +91,6 @@ allies:
   - image: /img/pg-logo/pg-logo.png
   - image: /img/pg-logo/pg-logo.png
   - image: /img/pg-logo/pg-logo.png
-
 prices:
   - description: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a tortor rhoncus, placerat quam consequat, aliquam turpis. Pellentesque id velit vel elit volutpat viverra a et sapien. Mauris sem felis, consectetur in justo nec, bibendum blandit mi. Fusce imperdiet, nulla a aliquam facilisis, erat risus luctus nibh, sed placerat leo ex sed elit.
@@ -116,4 +114,3 @@ prices:
       </ul>
     price: FREE
 ---
-

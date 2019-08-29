@@ -16,12 +16,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Location, name: location, widget: string}
           - {label: When, name: when, widget: string}
-          - {label: Contact Email, name: contact_email, widget: string}
-          - {label: Buy URL, name: buy_url, widget: string}
+          - {label: "Contact Email", name: contact_email, widget: string}
+          - {label: "Buy URL", name: buy_url, widget: string}
           - {label: Program, name: program, widget: "file"}
-          - {label: About Model, name: about, widget: "markdown"}
-          - {label: Join Community URL, name: signUpApi, widget: "string"}
-          - {label: Onboarding text, name: onboarding_text, widget: "string"}
+          - {label: "About Model", name: about, widget: "markdown"}
+          - {label: "Join Community URL", name: signUpApi, widget: "string"}
+          - {label: "Onboarding text", name: onboarding_text, widget: "string"}
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "markdown"}]}
@@ -33,7 +33,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Organizations", name: logos, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "URL Website", name: "url", widget: string},
-              {label: "Description", name: "description", widget: "markdown"},
+              {label: "Description", name: "description", widget: "markdown"}
               ]}
           - {label: "Organizers", name: organizers, widget: object, fields: [
               {label: "Image", name: "url", widget: "image"}]}
@@ -43,4 +43,4 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Image", name: "image", widget: "image"}]}
           - {label: "Prices", name: prices, widget: object, fields: [
               {label: "Description", name: "description", widget: "markdown"},
-              {label: "Price", name: "price", widget: "string"},]}
+              {label: "Price", name: "price", widget: "string"}]}
