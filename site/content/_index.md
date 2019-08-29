@@ -5,6 +5,10 @@ location: 'London, United Kingdom  |  ACME Convention Centre'
 when: '12 - 15 November'
 contact_email: example@openexo.com
 buy_url: "https://www.eventbrite.es/e/entradas-gansos-rosas-el-mejor-homenaje-a-guns-and-roses-en-almeria-66299863677?aff=ehomecard"
+program: /dubai_exosummit_2019.pdf
+signUpApi: http://localhost:8000/api/accounts/join-us/
+onboarding_text: >
+  Esto es un ejemplo de email de invitation para unirte a la comunidad desde el ExO Summit.
 blurb:
     heading: "Exponentiality: The future is now"
     text: >
@@ -32,7 +36,7 @@ organizers:
     - image: /img/openexo-logo/openexo-logo-rgb-no-security.png
       url: https://www.openexo.com
       description: >
-        OpenExO is the global transformation community of more than 1,500 coaches, investors, consultants and innovation specialists helping organizations, institutions and people unlock abundance to change the world. Become part of the community to:<br>
+        <p>OpenExO is the global transformation community of more than 1,500 coaches, investors, consultants and innovation specialists helping organizations, institutions and people unlock abundance to change the world. Become part of the community to:</p>
         <ul>
             <li>Actively collaborate on global projects</li>
             <li>Take advantage of Exponential Technologies and help others to do so</li>
@@ -42,9 +46,9 @@ organizers:
             <li>Be part of teams that positively impact companies, institutions and countries</li>
         </ul>
     - image: /img/acme-logo/acme-logo.png
-      url: https://www.openexo.com
+      url: https://www.acme.com
       description: >
-        ACME helps organizations stay up to date with technology changes worldwide that help industries transform. We work to:<br/>
+        <p>ACME helps organizations stay up to date with technology changes worldwide that help industries transform. We work to:</p>
         <ul>
           <li>Help companies adapt to new technologies</li>
           <li>Challenge traditional methodologies in the quest for efficiency</li>
@@ -70,6 +74,9 @@ logos:
   - url: /img/thecityofmiami/thecityofmiami.png
   - url: /img/pg-logo/pg-logo.png
   - url: /img/sareb-logo/sareb-logo.png
+  - url: /img/organizations/sbd.png
+  - url: /img/organizations/unilever_logo.png
+  - url: /img/organizations/visa-logo.png
 carousel:
   - image: /img/quote1.png
   - image: /img/quote2.png

@@ -14,19 +14,33 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: JoinURL, name: joinURL, widget: string}
-          - {label: SaveURL, name: saveURL, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: Location, name: location, widget: string}
+          - {label: When, name: when, widget: string}
+          - {label: Contact Email, name: contact_email, widget: string}
+          - {label: Buy URL, name: buy_url, widget: string}
+          - {label: Program, name: program, widget: "file"}
+          - {label: About Model, name: about, widget: "markdown"}
+          - {label: Join Community URL, name: signUpApi, widget: "string"}
+          - {label: Onboarding text, name: onboarding_text, widget: "string"}
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "markdown"}]}
-          - {label: "Agenda", name: agenda, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "markdown"}]}
-          - {label: "Signup", name: signup, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "markdown"},
-              {label: "EventId", name: "eventId", widget: string}]}
-          - {label: "Save the Date", name: save, widget: object, fields: [
-              {label: "EventId", name: "eventId", widget: string},
-              {label: "Text", name: "text", widget: "markdown"}]}
+          - {label: "Guests", name: speakers, widget: object, fields: [
+              {label: "Name", name: "title", widget: string},
+              {label: "Position", name: "position", widget: string},
+              {label: "Image", name: "image", widget: "image"},
+              {label: "Description", name: "description", widget: "markdown"}]}
+          - {label: "Organizations", name: logos, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"},
+              {label: "URL Website", name: "url", widget: string},
+              {label: "Description", name: "description", widget: "markdown"},
+              ]}
+          - {label: "Organizers", name: organizers, widget: object, fields: [
+              {label: "Image", name: "url", widget: "image"}]}
+          - {label: "Allies", name: allies, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"}]}
+          - {label: "Quotes", name: carousel, widget: object, fields: [
+              {label: "Image", name: "image", widget: "image"}]}
+          - {label: "Prices", name: prices, widget: object, fields: [
+              {label: "Description", name: "description", widget: "markdown"},
+              {label: "Price", name: "price", widget: "string"},]}

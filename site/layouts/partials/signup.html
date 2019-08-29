@@ -1,28 +1,49 @@
 <!-- Contact -->
-<section id='signup'>
-<div class="pv3">
-  <div class="mhn1-l center wp-960">
-    <div class=" mb3 w-100 primary fp32 b tc">{{.heading}}</div>
-    <div class="w-100-l mb2 flex-l ">
-      <form action="{{.joinURL}}" id='form-join'>
-          <input type='hidden' value="{{.eventId}}" id='event' name='event'>
-          <div class="w-100-l">
-            <fieldset>
-              <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2" required>
-              <label for="name">Name</label>
-          </fieldset>
+<div id="modal-box" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      I'm interested<span class="close">&times;</span>
+    </div>
+    <div class="modal-body">
+      <div class="title">{{ .Params.title}}</div>
+      <div class="subtitle">
+        {{ .Params.subtitle}}
+      </div>
+      <div class="divider"></div>
+      <div id="form-layer">
+        <form id="form-sign-up" action="{{ .Params.signUpApi }}" method="post" validate data-hubspotproperty="SUMMITS_SIGNUPS">
+          <p>***Add introduction here***</p>
+          <input type='hidden' name='custom' id='custom' value="{{.Params.onboarding_text}}">
+          <div class="label mv2">Full name *</div>
+          <div class=" mv2"><input type="text" name="name" required id="name"/></div>
+          <div class="label mv2">Email *</div>
+          <div class="mv2"><input type="email" name="email" required id="email" /></div>
+          <div class="label mv2">
+            <input type="checkbox" name="privacy" required id="privacy" />
+            I understand and agree with the
+            <a href="https://www.openexo.com/privacy-policy" target="_blank" class="without-hover">Privacy Policy and Cookies *</a>
           </div>
-          <div class="w-100-l">
-            <fieldset>
-              <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2" required>
-              <label for="email">Email</label>
-          </fieldset>
+          <div class="buttons tc center">
+            <input type="submit" class="btn bg-primary white" id="sign-button"/>
           </div>
-          <div class="ph1-l w-100-l">
-          <button type="submit" class="btn bg-orange white w-100 w-auto-ns">Submit</button>
+        </form>
+      </div>
+      <div id="form-layer-ok">
+        <div class="title">You have signed up to the community.</div>
+        <div class="subtitle">Stay tuned to your inbox for more information</div>
+        <div>
+            <button class="button-close btn bg-primary white">OK</button>
+          </div>
+      </div>
+      <div id="form-layer-ko">
+        <div class="title">Hmm, that's strange...</div>
+        <div class="subtitle">Something went wrong and your request was unable to go through. Please refresh and try again.</div>
+        <div>
+          <button class="button-close btn bg-grey-2 white">OK</button>
+          <button class="button-try btn bg-primary white">TRY AGAIN</button>
         </div>
-      </form>
+      </div>
     </div>
   </div>
 </div>
-</section>
