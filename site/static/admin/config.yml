@@ -30,12 +30,12 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Position", name: "subtitle", widget: string},
               {label: "Image", name: "image", widget: "image"},
               {label: "Description", name: "description", widget: "markdown"}]}
-          - {label: "Organizations", name: logos, widget: object, fields: [
+          - {label: "Organizations", name: organizations, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"},
               {label: "URL Website", name: "url", widget: string},
               {label: "Description", name: "description", widget: "markdown"}
               ]}
-          - {label: "Organizers", name: organizers, widget: object, fields: [
+          - {label: "Organizers", name: logos, widget: object, fields: [
               {label: "Image", name: "url", widget: "image"}]}
           - {label: "Allies", name: allies, widget: object, fields: [
               {label: "Image", name: "image", widget: "image"}]}
