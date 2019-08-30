@@ -1,20 +1,23 @@
 <section id='signup'>
-<div class="pv3 mb4">
+<div class="pv3 bg-orange-2">
   <div class="mhn1-l center wp-960">
-    <div class=" mb4 w-100 primary fp32 b tc">Join the summit</div>
+    <div class=" mb4 w-100 primary fp32 b tc">Join the ExO Summit</div>
     <div class="w-100-l mb1 flex-l justify-between">
       {{ range .Params.prices }}
         <div class="mr3 tc">
-          <p class="tj fp16">{{.description | safeHTML}}</p>
-          <p class="tj">Price: <span class="primary">{{.price}}</span></p>
+          <p class="tc fp24 b">{{.name}}</p>
+          <p class="tl fp16">{{.description | safeHTML}}</p>
+          <p class="tc">Price: <span class="primary">{{.price}}</span></p>
+          <p>
+            <a href="{{.Params.buy_url}}" target="_blank" class="mt3 btn b mb3 mr2 bg-orange white w-100 w-auto-ns mb0-ns fp16">JOIN</a></p>
         </div>
       {{ end }}
     </div>
   </div>
-  <div class="mhn1-l flex-l center wp-960">
+  <div class="mhn1-l flex-l center wp-960 mt4 ">
     <div class="center w-80-l tc">
-      <a href="{{.Params.buy_url}}" target="_blank" class="mt3 btn b mb3 mr2 bg-orange white w-100 w-auto-ns mb0-ns fp16">
-          BUY
+      Questions? <a href="mailto:{{.Params.contact_email}}" target="_blank" class="mt3 b mb3 mr2 primary w-100 w-auto-ns mb0-ns fp16">
+          Contact us
         </a>
       </div>
   </div>

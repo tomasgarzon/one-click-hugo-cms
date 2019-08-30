@@ -7,16 +7,15 @@
     </div>
     <div class="modal-body">
       <div class="title">{{ .Params.title}}</div>
-      <div class="subtitle">
-        {{ .Params.subtitle}}
-      </div>
       <div class="divider"></div>
       <div id="form-layer">
         <form id="form-sign-up" action="{{ .Params.signUpApi }}" method="post" validate data-hubspotproperty="SUMMITS_SIGNUPS">
-          <p>***Add introduction here***</p>
+          <p>Join the ExO Community and receive the latest news regarding this specific event. </p>
           <input type='hidden' name='custom' id='custom' value="{{.Params.onboarding_text}}">
-          <div class="label mv2">Full name *</div>
-          <div class=" mv2"><input type="text" name="name" required id="name"/></div>
+          <div class="label mv2">First name *</div>
+          <div class=" mv2"><input type="text" name="first_name" required id="first_name"/></div>
+          <div class="label mv2">Last name *</div>
+          <div class=" mv2"><input type="text" name="last_name" required id="last_name"/></div>
           <div class="label mv2">Email *</div>
           <div class="mv2"><input type="email" name="email" required id="email" /></div>
           <div class="label mv2">

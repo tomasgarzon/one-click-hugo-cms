@@ -41,7 +41,14 @@ $(function(){
 
     const modal = document.getElementById('modal-box');
 
-    $(".join-button").on('click', () => modal.style.display = "block");
+    $(".join-button").on('click', () => {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'ExOSummits',
+        eventAction: 'open_join',
+        eventLabel: 'Open Join the Community'
+      });
+      modal.style.display = "block"});
     $(".close").on('click', () => modal.style.display = "none");
     $(".button-close").on('click', () => modal.style.display = "none");
 
@@ -64,7 +71,8 @@ $(function(){
     $('#form-sign-up').on('submit', function(event) {
       event.preventDefault();
       var data = {
-          firstName: $('#name').val(),
+          firstName: $('#first_name').val(),
+          lastName: $('#last_name').val(),
           email: $('#email').val(),
           policy: $('#policy').val(),
           customText: $('#custom').val(),
@@ -84,6 +92,12 @@ $(function(){
                 'Content-Type': 'application/json'
             },
             success: function(data){
+              ga('send', {
+                hitType: 'event',
+                eventCategory: 'ExOSummits',
+                eventAction: 'joined',
+                eventLabel: 'Join the Community'
+              });
               $('#form-layer').hide(); $('#form-layer-ok').show();
               //location.href = domain + '/auth/go-to?token=' + data['token'];
             },

@@ -3,8 +3,8 @@
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "location" .Params.location "when" .Params.when) }}
 {{ partial "signup" .}}
 {{ partial "short-text" .Params.blurb}}
-{{ partial "program" .}}
 {{ partial "model" (dict "about" .Params.about) }}
+{{ partial "program" .}}
 {{ partial "organizations" (dict "logos" .Params.logos) }}
 {{ partial "speakers" . }}
 {{ partial "organizers" . }}
@@ -13,4 +13,6 @@
 {{ partial "quotes" (dict "carousel" .Params.carousel)}}
 {{ partial "save-form" (dict "saveURL" .Params.saveURL "text" .Params.save.text  "eventId" .Params.save.eventId) }}
 {{ partial "scripts.html" . }}
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bbc3d8edc1254fc"></script>
 {{ end }}
