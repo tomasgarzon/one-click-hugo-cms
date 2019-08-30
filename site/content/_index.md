@@ -6,7 +6,7 @@ when: '12 - 15 November'
 contact_email: example@openexo.com
 buy_url: "https://www.eventbrite.es/e/entradas-gansos-rosas-el-mejor-homenaje-a-guns-and-roses-en-almeria-66299863677?aff=ehomecard"
 program: /dubai_exo_summit_2019.pdf
-signUpApi: http://localhost:8000/api/accounts/join-us/
+signUpApi: https://exo4432.qa.exolever.com/api/accounts/join-us/
 onboarding_text: >
   <p>Now you can get event-related updates and ask questions to the community. </p>
   <p>What is next?</p>
