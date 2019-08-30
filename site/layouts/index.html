@@ -4,7 +4,7 @@
 {{ partial "signup" .}}
 {{ partial "short-text" .Params.blurb}}
 {{ partial "model" (dict "about" .Params.about) }}
-{{ partial "program" .}}
+{{ partial "program" .Params.program }}
 {{ partial "organizations" (dict "logos" .Params.logos) }}
 {{ partial "speakers" . }}
 {{ partial "organizers" . }}

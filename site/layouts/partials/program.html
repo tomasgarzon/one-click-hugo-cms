@@ -1,17 +1,16 @@
 <div class="pb5 pt5">
   <div class="flex-l mhn1-l center wp-960">
     <div class=" mb2 w-30-l fp32 primary b">
-        What you will find in this summit
+        {{.heading}}
         <a href="{{.Params.program}}" target="_blank" class="mt5 btn mb3 w-100 w-auto-ns mb0-ns bg-orange white fp16">
-        DOWNLOAD THE PROGRAM
+        {{ i18n "download_program" }}
       </a>
     </div>
     <div class="w-70-l mb2 ml3 bg-grey-2 dark-blue br1 pv4 ph3">
-        <p>Unlike many other events, the objective of the ExO Summit is not only to inspire, but to empower current leaders (through testimonials, case studies, personalized meetings and workshops) with the tools and support they need to start the exponential transformation the day after the event.</p>
-        <p><i class="fas fa-check primary"></i> Transform mindset towards the new exponential technologies</p>
-        <p><i class="fas fa-check primary"></i> Provide companies with an adaptive and disruptive structure</p>
-        <p><i class="fas fa-check primary"></i> Provide attendees with tools to implement a change based on the current technological situation</p>
-        <p><i class="fas fa-check primary"></i> Provide a world-class network of contacts (ExO Community)</p>
+        <p>{{.description}}</p>
+        {{ range .items }}
+            <p><i class="fas fa-check primary"></i> {{.text}}</p>
+        {{ end }}
     </div>
   </div>
 </div>

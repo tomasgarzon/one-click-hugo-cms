@@ -1,5 +1,5 @@
 baseurl = "/"
-languageCode = "en-us"
+languageCode = "en"
 languageLang = "en"
 title = "ExO Summit"
 
@@ -8,3 +8,9 @@ title = "ExO Summit"
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-135475643-7"
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    weight = 1
+  [languages.es]
+    weight = 2

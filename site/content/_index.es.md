@@ -2,7 +2,7 @@
 title: ACME Exponential Summit
 subtitle: 'OPENEXO & ACME PRESENT'
 location: 'London, United Kingdom  |  ACME Convention Centre'
-when: '12 - 15 November'
+when: '12 - 15 Noviembre'
 contact_email: example@openexo.com
 buy_url: "https://www.eventbrite.es/e/entradas-gansos-rosas-el-mejor-homenaje-a-guns-and-roses-en-almeria-66299863677?aff=ehomecard"
 program: /dubai_exo_summit_2019.pdf
@@ -20,18 +20,18 @@ onboarding_text: >
 blurb:
     heading: "Exponentiality and Disruption"
     text: >
-      <p>The ExO Summit is a very practical event where world leaders, executives, entrepreneurs and game changers get together to share their transformative experiences, exchange ideas, challenge beliefs and dare to transform our organizations using the ExO Model.</p>
-      <p>With more than 10 years' experience helping companies stay up to date with technology, ACME teams up with ExOSummits in this event for all those who live the present and look at the future.</p>
+      <p>El ExO Summit es un evento muy práctico donde líderes mundiales, ejecutivos, emprendedores y agentes de cambio se reúnen para compartir sus experiencias transformadoras, intercambiar ideas, desafiar creencias y atreverse a transformar nuestro tejido empresarial utilizando el Modelo ExO.</p>
+      <p>Te invitamos a ser parte de este primer ExO Summit en Centro América y experimentar el poder del Modelo ExO que ya ha transformado a múltiples compañías, personas e instituciones en todo el mundo.</p>
       <p>Discover all we can do together and inspire others.</p>
 program:
-    heading: "What you will find in this summit"
+    heading: "Que encontrarás en este Summit"
     description: >
-      Unlike many other events, the objective of the ExO Summit is not only to inspire, but to empower current leaders (through testimonials, case studies, personalized meetings and workshops) with the tools and support they need to start the exponential transformation the day after the event.
+      Al contrario que muchos otros eventos, el objetivo del ExO Summit no es sólamente inspirar, sino empoderar a los líderes del momento (a través de testimonios, casos de estudio, reuniones personalizadas y talleres) con las herramientas y soporte que necesitan para poder empezar la transformación exponencial al día siguiente del evento.
     items:
-      - text: Transform mindset towards the new exponential technologies
-      - text: Provide companies with an adaptive and disruptive structure
-      - text: Provide attendees with tools to implement a change based on the current technological situation
-      - text: Provide a world-class network of contacts (ExO Community)
+      - text: Transformar la visión ante las nuevas tecnologías exponenciales
+      - text: Proporcionar una opción de estructura adaptable y disruptiva
+      - text: Dotar de herramientas para implementar un cambio basado en la situación tecnológica actual
+      - text: Proveer una red de contactos de clase mundial
 speakers:
     - title: Salim Ismail
       subtitle: 'Co-founder and Chairman at OpenExO<br/>Canada'
@@ -53,7 +53,7 @@ organizers:
     - image: /img/openexo-logo/openexo-logo-rgb-no-security.png
       url: https://www.openexo.com
       description: >
-        <p>OpenExO is the global transformation community of more than 1,500 coaches, investors, consultants and innovation specialists helping organizations, institutions and people unlock abundance to change the world</p>
+        <p>OpenExO es la comunidad de transformación global de más de 1,500 coaches, inversores, consultores y especialistas en innovación que ayudan a organizaciones, instituciones y personas a desbloquear la abundancia para cambiar el mundo.</p>
     - image: /img/acme-logo/acme-logo.png
       url: https://www.acme.com
       description: >
@@ -66,7 +66,7 @@ save:
     text: "Introductory text"
     eventId: 1
 about: >
-  The ExO Model, based on the best-selling <a href="https://www.openexo.com/books" target="_blank">'Exponential Organizations'</a>, offers a guide to design Exponential Organizations by applying 10 attributes and a 10-week process for its implementation, called ExO Sprint .
+  El Modelo ExO (por sus siglas en inglés Exponential Organizations), basado en el best-seller <a href="https://www.openexo.com/books" target="_blank">‘Organizaciones Exponenciales’</a>, ofrece una guía para diseñar Organizaciones Exponenciales mediante la aplicación de 10 atributos y un proceso de 10 semanas para su implementación, llamado ExO Sprint.
 logos:
   - url: /img/airbus-logo/airbus-logo.png
   - url: /img/bogota-logo/bogota-logo.png
