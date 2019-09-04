@@ -1,0 +1,11 @@
+.speaker:last-child {
+    margin-right: 0;
+}
+@media (max-width: 640px) {
+    .speakers-wrapper {
+        margin: 0 8px;
+    }
+    .speaker {
+        width: 100%;
+    }
+}

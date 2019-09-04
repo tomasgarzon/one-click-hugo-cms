@@ -1,0 +1,9 @@
+@media (max-width: 640px) {
+    .wrapper-short-text {
+        margin-top: 440px !important;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    .wrapper-short-text h2 {text-align: center;}
+    .wrapper-short-text .text-wrapper {margin-left: 0 !important;}
+}

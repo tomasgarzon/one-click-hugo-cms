@@ -9,4 +9,5 @@
   font-weight: var(--bold-font-weight);
   color: var(--primary);
   text-align: center;
+  box-sizing: border-box;
 }

@@ -1,0 +1,13 @@
+.join-box {
+    min-height: 400px;
+}
+
+@media (max-width: 640px) {
+    .join-box {
+        min-height: unset;
+        margin-right: 0 !important;
+    }
+    .join-wrapper .btn {
+        width: max-content;
+    }
+}

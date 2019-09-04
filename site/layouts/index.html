@@ -3,8 +3,8 @@
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "location" .Params.location "when" .Params.when) }}
 {{ partial "signup" .}}
 {{ partial "short-text" .Params.blurb}}
-{{ partial "model" (dict "about" .Params.about) }}
 {{ partial "program" .Params.program }}
+{{ partial "model" (dict "about" .Params.about) }}
 {{ partial "organizations" (dict "logos" .Params.logos) }}
 {{ partial "speakers" . }}
 {{ partial "organizers" . }}

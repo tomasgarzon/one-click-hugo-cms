@@ -13,3 +13,71 @@
     box-shadow: inset 0 -4px 0 var(--primary);
   }
 }
+
+/*Youtube iframe responsive*/
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 960px;
+  max-height: 540px;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+.center-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big-body {
+  font-size: 18px;
+  color: #001e47;
+}
+
+.box-shadow {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.24);
+}
+
+.link {
+  text-decoration: underline;
+  color: #24a1e3;
+}
+
+.roboto {
+  font-family: roboto, sans-serif;
+}
+
+.hs-input {
+  background-color: rgba(255, 255, 255, 0.64);
+}
+
+.rs-richtext a {
+  text-decoration: underline;
+  color: #24a1e3;
+}
+
+.hs-button {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 24px;
+  font-size: 16px;
+  padding: 15px 24px;
+  margin: 0;
+  text-align: center;
+}
+

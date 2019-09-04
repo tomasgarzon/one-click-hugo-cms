@@ -1,6 +1,7 @@
 .br0 {        border-radius: 0!important; }
 
 .br1 {        border-radius: var(--border-radius); }
+.br-img {     border-radius: var(--border-radius-img); }
 
 .br-100 {     border-radius: 100%; }
 

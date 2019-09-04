@@ -1,0 +1,11 @@
+
+nav .contact {
+    top: 30px;
+    right: 30px;
+}
+
+@media (max-width: 640px) {
+    .contact {
+        right: 0 !important;
+    }
+}

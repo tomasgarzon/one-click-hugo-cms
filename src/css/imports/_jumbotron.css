@@ -1,6 +1,52 @@
 .rectangle {
-  width: 550px;
-  height: 480px;
+  max-width: 550px;
   border-radius: 12px;
   background-color: var(--primary);
+}
+.rectangle .subtitle {
+  letter-spacing: 4px;
+}
+
+.bk-salim {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 570px;
+  background-image: url('/img/hero/hero.png');
+  width: 100%;
+}
+.green-box {
+  position: absolute;
+  top: 50px;
+  left: 20%;
+}
+@media screen and (max-width: 1200px) {
+  .green-box {
+    left: 10%;
+  }
+}
+
+@media (max-width: 640px) {
+  .green-box {
+    top: 140px;
+    left: unset;
+  }
+  .bk-salim {
+    height: 220px;
+  }
+  .btn-group {
+    display: flex;
+  }
+  .btn-group a {
+    display: flex;
+    justify-content: center;
+  }
+  .text-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .rectangle {
+    padding-bottom: 32px;
+  }
 }

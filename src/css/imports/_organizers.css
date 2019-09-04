@@ -1,0 +1,14 @@
+.organizers-wrapper {}
+
+@media (max-width: 640px) {
+    .w-100-mbl {
+        width: 100% !important;
+    }
+    .min-h-350 {min-height: unset;}
+    .organizers-wrapper .btn-group div:last-child {
+        margin-right: 0;
+    }
+    .organizers-wrapper .items-center {
+        display: flex;
+    }
+}

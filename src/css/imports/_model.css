@@ -1,0 +1,9 @@
+.big-body a {
+    color: #36c4ff;
+}
+
+@media (max-width: 640px) {
+    .model-wrapper {
+        margin: 0 8px;
+    }
+}

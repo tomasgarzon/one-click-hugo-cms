@@ -1,8 +1,8 @@
 ---
 title: ACME Exponential Summit
 subtitle: 'OPENEXO & ACME PRESENT'
-location: 'London, United Kingdom  |  ACME Convention Centre'
-when: '12 - 15 Noviembre'
+location: 'London, United Kingdom'
+when: '12 Noviembre'
 contact_email: example@openexo.com
 buy_url: "https://www.eventbrite.es/e/entradas-gansos-rosas-el-mejor-homenaje-a-guns-and-roses-en-almeria-66299863677?aff=ehomecard"
 program: /dubai_exo_summit_2019.pdf
@@ -35,17 +35,17 @@ program:
 speakers:
     - title: Salim Ismail
       subtitle: 'Co-founder and Chairman at OpenExO<br/>Canada'
-      image: /img/bio/salim.jpg
+      image: /img/bio/salim_2x.jpg
       description: >
         Founding member of Singularity University, board member at Prize Foundation and keynote speaker, Salim is a leading technology strategist who launched the global ExO movement with his bestselling book Exponentials Organizations.
     - title: Francisco Palao
       subtitle: 'Vice-Chairman at OpenExO<br/>Spain'
-      image: /img/bio/palao.jpg
+      image: /img/bio/palao_2x.jpg
       description: >
         Co-author of the ExO Sprint and main author of the Exponential Transformation book, Francisco is an award-winning innovator who has inspired and advised organizations around the world to design and implement disruptive innovation strategies for various industries.
     - title: Corina Almagro
       subtitle: 'ExO Certified Coach and Trainer<br/>USA'
-      image: /img/imgs/img03_2x.jpg
+      image: /img/bio/corina_2x.jpg
       description: >
         Corina brings more than 3 years of ExO coaching practice in different industries and company sizes. Prior to ExO, she drove the HP PC business transformation, which provided her with a deep understanding of how organizations work and the internal challenges they face when it comes to innovation and disruption.
 
@@ -68,16 +68,16 @@ save:
 about: >
   El Modelo ExO (por sus siglas en inglés Exponential Organizations), basado en el best-seller <a href="https://www.openexo.com/books" target="_blank">‘Organizaciones Exponenciales’</a>, ofrece una guía para diseñar Organizaciones Exponenciales mediante la aplicación de 10 atributos y un proceso de 10 semanas para su implementación, llamado ExO Sprint.
 logos:
-  - url: /img/airbus-logo/airbus-logo.png
-  - url: /img/bogota-logo/bogota-logo.png
-  - url: /img/gucci-logo/gucci-logo.png
-  - url: /img/hp-logo/hp-logo.png
-  - url: /img/thecityofmiami/thecityofmiami.png
-  - url: /img/pg-logo/pg-logo.png
-  - url: /img/sareb-logo/sareb-logo.png
-  - url: /img/organizations/sbd.png
-  - url: /img/organizations/unilever_logo.png
-  - url: /img/organizations/visa-logo.png
+    - url: /img/airbus-logo/airbus_2x.png
+    - url: /img/bogota-logo/bogota_2x.png
+    - url: /img/gucci-logo/gucci_2x.png
+    - url: /img/hp-logo/hp_2x.png
+    - url: /img/thecityofmiami/miami_2x.png
+    - url: /img/pg-logo/pg_2x.png
+    - url: /img/sareb-logo/sareb_2x.png
+    - url: /img/organizations/stanley_2x.png
+    - url: /img/organizations/unilever_2x.png
+    - url: /img/organizations/visa_2x.png
 carousel:
   - image: /img/quote1.png
   - image: /img/quote2.png

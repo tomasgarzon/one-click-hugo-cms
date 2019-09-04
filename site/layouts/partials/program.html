@@ -1,16 +1,26 @@
-<div class="pb5 pt5">
-  <div class="flex-l mhn1-l center wp-960">
-    <div class=" mb2 w-30-l fp32 primary b">
-        {{.heading}}
-        <a href="{{.Params.program}}" target="_blank" class="mt5 btn mb3 w-100 w-auto-ns mb0-ns bg-orange white fp16">
-        {{ i18n "download_program" }}
-      </a>
+<div class="push-bottom-xxl wrapper-program wrapper">
+    <div class="flex-l mhn1-l center wp-960">
+        <div class=" mb2 w-30-l fp32 primary b center-col title">
+            {{.heading}}
+            <a class="btn w-100 bg-orange white fp16 push-top download-btn-dp" href="{{.Params.program}}"
+               target="_blank">
+                {{ i18n "download_program" }}
+            </a>
+        </div>
+        <div class="w-70-l mb2 push-left-sm bg-grey-2 dark-blue br1 pv4 ph3 summary-program">
+            <p>{{.description}}</p>
+            {{ range .items }}
+            <ul>
+                <li>
+                    <span class="roboto">
+                        {{.text}}
+                    </span>
+                </li>
+            </ul>
+            {{ end }}
+        </div>
+        <a class="btn w-100 bg-orange white fp16 push-top download-btn-mb" href="{{.Params.program}}" target="_blank">
+            {{ i18n "download_program" }}
+        </a>
     </div>
-    <div class="w-70-l mb2 ml3 bg-grey-2 dark-blue br1 pv4 ph3">
-        <p>{{.description}}</p>
-        {{ range .items }}
-            <p><i class="fas fa-check primary"></i> {{.text}}</p>
-        {{ end }}
-    </div>
-  </div>
 </div>

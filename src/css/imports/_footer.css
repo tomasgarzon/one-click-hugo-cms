@@ -1,0 +1,12 @@
+.footer-wrapper .text-mb {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .footer-wrapper .text-dp {
+        display: none;
+    }
+    .footer-wrapper .text-mb {
+        display: block;
+    }
+}

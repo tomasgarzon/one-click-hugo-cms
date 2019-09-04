@@ -1,24 +1,28 @@
-<div class="pv3 mb4">
+<div class="push-bottom-xxl speakers-wrapper">
   <div class="mhn1-l center wp-960">
-    <div class=" mb4 w-100 primary fp32 b tc">Featured Guests</div>
-    <div class="w-100-l mb2 flex-l ">
+    <div class=" push-bottom w-100 primary fp32 b tc">Featured Guests</div>
+    <div class="w-100-l flex-l ">
       {{ range .Params.speakers }}
-        <div class="w-33 mr3">
+        <div class="w-33 push-right-sm speaker push-bottom">
           <img src="{{.image}}" class="tc boxs">
-          <h1 class="b dark-blue fp24 tc mv2">{{.title}}</h1>
-          <h2 class="b fp18 b grey-3 tc mb3">{{.subtitle | safeHTML}}</h2>
-          <p class="tl fp16">{{.description}}</p>
+          <h1 class="b dark-blue fp24 tc push-top-sm push-bottom-xxs">{{.title}}</h1>
+          <h2 class="b fp18 b grey-3 tc push-bottom-xxs">{{.subtitle | safeHTML}}</h2>
+          <p class="tl fp16 push-top-xxs">{{.description}}</p>
         </div>
       {{ end }}
     </div>
   </div>
   <div class="mhn1-l flex-l center wp-960">
-    <div class="center w-80-l tc">
+    <div class="center w-80-l tc btn-group">
       <a href="#signup" class="mt3 btn b mb3 mr2 bg-orange white w-100 w-auto-ns mb0-ns fp16">
-          SIGN UP
+          <span class="text-btn">
+            {{ i18n "signup" }}
+          </span>
         </a>
         <a href="#" class="mt3 btn mb3 w-100 w-auto-ns mb0-ns bg-grey-2 primary fp16 join-button">
-          I'M INTERESTED
+          <span class="text-btn">
+            {{ i18n "interested" }}
+          </span>
         </a>
       </div>
   </div>

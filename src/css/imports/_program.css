@@ -1,0 +1,46 @@
+.download-btn-mb {
+    display: none;
+}
+.summary-program {
+    padding: 48px;
+}
+.summary-program p:last-child {
+    margin: 0;
+}
+.summary-program ul li{
+    font-family: "Font Awesome 5 Pro";
+}
+
+.summary-program ul li::before {
+    content: "\f00c";
+    margin-right: 8px;
+}
+
+
+@media (max-width: 640px) {
+    .wrapper {
+        margin: 0 8px;
+    }
+    .download-btn-mb {
+        display: block;
+    }
+    .download-btn-dp {
+        display: none;
+    }
+    .wrapper-program .title {
+        margin: 0 20px 32px 20px;
+        text-align: center;
+    }
+    .summary-program {
+        margin: 0 !important;
+        padding: 32px !important;
+    }
+    .wrapper-program a {
+        margin: 32px auto 0 auto;
+        padding: 16px 15px;
+        width: max-content;
+    }
+    .summary-program {
+        padding: 32px;
+    }
+}
