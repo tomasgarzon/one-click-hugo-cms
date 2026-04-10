@@ -1,5 +1,4 @@
 import React from "react";
-import format from "date-fns/format";
 
 export default class PostPreview extends React.Component {
   render() {
@@ -8,10 +7,10 @@ export default class PostPreview extends React.Component {
 
     // Bit of a nasty hack to make relative paths work as expected as a background image here
     if (image && !image.fileObj) {
-        image = window.parent.location.protocol + "//" + window.parent.location.host + image;
+      image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
 
     return <div>
-    </div>
+    </div>;
   }
 }
